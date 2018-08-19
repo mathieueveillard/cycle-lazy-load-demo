@@ -1,0 +1,11 @@
+{
+  "name": "api",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Mathieu Eveillard",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

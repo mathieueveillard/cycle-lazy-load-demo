@@ -1,0 +1,29 @@
+{
+  "name": "spa",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "cycle-scripts": "1.1.0"
+  },
+  "author": "Mathieu Eveillard",
+  "dependencies": {
+    "@cycle/dom": "^20.4.0",
+    "@cycle/http": "^14.9.0",
+    "@cycle/run": "^4.4.0",
+    "cycle-lazy-load": "^0.1.0",
+    "cycle-onionify": "^6.1.0",
+    "cycle-resize": "^1.0.2",
+    "xstream": "^11.7.0"
+  },
+  "scripts": {
+    "start": "cycle-scripts start",
+    "test": "cycle-scripts test",
+    "build": "cycle-scripts build",
+    "eject": "cycle-scripts eject"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  }
+}
